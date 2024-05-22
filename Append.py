@@ -4,7 +4,7 @@
 #extend listeye birden fazla eleman ekler
 #pop metodu listenin en sonundaki elemanı siler ve bize soyler
 #reverse metodu listeyi tersinden sıralar
-#sort ve sorted metotları sırlama yapar
+#sort ve sorted metotları sırlama yapar içinde metinsel ifadeler varsa harfe göre sıralar
 
 renkler = ["Siyah","Beyaz","Yeşil","Mavi","Sari","Rouge","Rose","Violet","Vert"]
 
@@ -35,6 +35,22 @@ print(silinen)
 renkler.reverse()
 
 print(renkler)
+
+renkler.sort()
+
+print(renkler)
+
+renkler.sort() #tersten sıralar
+
+#biz listeyi sıraladıüüımızda artık elimizde yeni bir liste oluşur
+#fakat sıralamanın bozulmasını istememden listeyi 
+# kullanmak istiyorsak sorted metodunu kullanırız
+
+liste2=sorted(renkler)
+
+print(liste2)
+
+print (renkler)
 
 
 
