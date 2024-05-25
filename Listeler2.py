@@ -36,10 +36,14 @@ stringrenkler="".join(renkler)
 
 print(stringrenkler)
 
-stringrenkler=", --".join(renkler)
+stringrenkler="--".join(renkler)
+
+print(type(stringrenkler))
 
 print(stringrenkler)
 
-print(type(stringrenkler))
+renkler2=stringrenkler.split("--")
+
+print(renkler2)
 
     
